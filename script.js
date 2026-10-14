@@ -6,8 +6,8 @@ const getSum = () => {
 //Add your code here
 	const allPrices=document.querySelectorAll(".prices");
 	let total=0;
-	allPrices.forEach((price)=>{
-		total+=Number(price.textContent);
+	allPrices.forEach((prices)=>{
+		total+=Number(prices.textContent);
 	});
 	const oldRow=document.getElementById("totalRow");
 	if(oldRow) oldRow.remove();
