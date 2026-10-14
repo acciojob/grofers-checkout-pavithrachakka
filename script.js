@@ -7,7 +7,7 @@ const getSum = () => {
 	const allPrices=document.querySelectorAll(".prices");
 	let total=0;
 	allPrices.forEach((prices)=>{
-		total+=Number(price.textContent);
+		total+=Number(prices.textContent);
 	});
 	const oldRow=document.getElementById("totalRow");
 	if(oldRow) oldRow.remove();
